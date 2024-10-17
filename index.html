@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gra w Dzika</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #dzik-img {
+            cursor: pointer;
+            width: 300px;
+            height: auto;
+        }
+        .info {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+        .game-over {
+            color: red;
+            font-size: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gra w Dzika</h1>
+    <p>Kiedy liczba jest podzielna lub zawiera w sobie liczbę 7 klknij zdjęcie dzika!</p>
+    <div id="info" class="info"></div>
+    <img id="dzik-img" src="Dzik.jpg">
+    <div class="info">Punkty: <span id="score">0</span></div>
+    <div class="info">Życia: <span id="lives">3</span></div>
+    <div id="game-over" class="game-over" style="display:none;">Przegrałeś!</div>
+
+    <script src="script.js">
+        
+    </script>
+</body>
+</html>
