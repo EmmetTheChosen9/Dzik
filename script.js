@@ -45,7 +45,7 @@ let score = 0;
             updateGame();
 
             
-            intervalTime = intervalTime * 0.95;
+            intervalTime = intervalTime * 0.97;
             clearInterval(intervalId); 
             intervalId = setInterval(updateInterval, intervalTime); 
         }
